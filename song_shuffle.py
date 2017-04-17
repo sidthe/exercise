@@ -1,9 +1,11 @@
 import random
+
+# Take user input of number of songs and song metadata
 nr_of_songs = int(input())
+
 raw_songs = []
 raw_song = []
 
-# Take user input of number of songs and song metadata
 for i in range(nr_of_songs):
     raw_song = input().split()
     raw_songs.append(raw_song)
